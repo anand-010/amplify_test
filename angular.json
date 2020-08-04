@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ang-amplify"
+    }
+  },
+  "defaultProject": "ang-amplify",
+  "cli": {
+    "analytics": "e13d88b0-2ad1-4108-92c5-ddca5421ba92"
+  }
 }

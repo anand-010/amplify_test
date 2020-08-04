@@ -1,0 +1,11 @@
+type Todo @model {
+  id: ID!
+  name: String!
+  description: String
+  address : String
+}
+
+type Subscription {
+  onaddtodoById(id: ID!): Todo
+    @aws_subscribe(mutations: ["createTodo"])
+}
